@@ -1,6 +1,7 @@
 body{
-    background:rgb(244, 239, 245);
-
+background-image: url("https://live.staticflickr.com/3720/19236292949_40ab55576c_b.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 .container{
     max-width:600px;
@@ -12,10 +13,14 @@ body{
 }
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     
 }
+.image{
+   width:600px;
+    margin: auto;
+}    
 h2{
     margin:0 0 5px;
     font-size:28px;
@@ -24,9 +29,13 @@ select{
     display:block;
     font-size: 18px;
     width:100%;
-    border-radius:6px;
+border-radius:6px;
+border-color: skyblue;
     padding:10px;
-   
+    margin: auto;   
+}
+.state{
+    background-color: skyblue;
 }
 .city{
     display:flex;
